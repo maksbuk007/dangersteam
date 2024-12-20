@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Баллы </title>
+</head>
+    <style>
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #fafafa;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            background-color: #000000;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        thead {
+            background-color: #0077cc;
+            color: #fff;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #000000;
+        }
+
+        tbody tr:hover {
+            background-color: #383838;
+            color: #fff;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+    </style>
+<body>
+
+<h1>Получение баллов</h1>
+<hr><br>
+<h2> Отдел: "Захваты"</h2>
+<br>
+<table class="захваты" id="table">
+    <thead>
+        <tr>
+            <th>Работа в отделе</th>
+            <th>Выдается баллов</th>
+
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td> Вышка сот. связи </td>
+                <td> <b>2.5</b> </td>
+
+            </tr>
+            <tr>
+                <td> Ферма Гарель </td>
+                <td> <b>3.5</b> </td>
+
+            </tr>
+            <tr>
+                <td> Завод Бусаево </td>
+                <td> <b>6</b> </td>
+
+            </tr>
+            <tr>
+                <td> Привезенная машина на черный рынок </td>
+                <td> <b>0.5</b> </td>
+
+            </tr>
+
+       
+    </tbody>
+</table>
+
+<br><br>
+<h2> Отдел: "Наборы // Медиа"</h2>
+<br>
+<table class="Наборы // Медиа" id="table">
+    <thead>
+        <tr>
+            <th>Работа в отделе</th>
+            <th>Выдается баллов</th>
+
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td> Приглашенный человек </td>
+                <td> <b>2</b> </td>
+
+            </tr>
+            <tr>
+                <td> Курирование интернет ресурсов </td>
+                <td> <i>bonus</i> </td>
+
+            </tr>
+            
+    </tbody>
+
+</table>
+<br><br>
+<h2> Отдел: "Склад // Сейф // АП"</h2>
+<br>
+<table class="склад//сейф//ап" id="table">
+    <thead>
+        <tr>
+            <th>Работа в отделе</th>
+            <th>Выдается баллов</th>
+
+        </tr>
+    </thead>
+    <tbody>
+            </tr>
+            <tr>
+                <td> Восполнение бронежилетов (0-100) </td>
+                <td> <b>11</b> </td>
+
+            </tr>
+            <tr>
+                <td> Восполнение материалов (за 100 шт.) </td>
+                <td> <b>7</b> </td>
+
+            </tr>
+            <tr>
+                <td> Восполнение других запасов склада и сейфа, <br> починка автопарка семьи </td>
+                <td> <i>Случаи рассматривается <br> <b>индивидуально</b></i> </td>
+
+            </tr>
+       
+    </tbody>
+</table>
+
+</body>
+</html>
